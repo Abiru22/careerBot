@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>fullstack developer</pattern>
+        <template>A Full Stack Developer is a professional who works on both the front end and back end of a web application or software product. They are responsible for designing, developing, testing, and maintaining all aspects of the application, including the user interface, server-side logic, databases
+            <br></br> <br></br>
+            <link>
+                <text> Click here to learn more.</text>
+                <url>https://www.simplilearn.com/skills-required-to-become-a-full-stack-developer-article</url>
+            </link>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>top careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>find a career</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>fullstack developer question</pattern>
+        <template>We think you should consider becoming a fullstack developer!
+        <br></br><br></br>
+        full-stack developer is to create a product from scratch and supervise the general flow of the project. To implement such projects, they require perfect knowledge in the field of the latest frontend, backend and cloud technologies.
+            <br></br> <br></br>
+            <link>
+                <text> Click here to learn more about fullstack.</text>
+                <url>https://www.simplilearn.com/skills-required-to-become-a-full-stack-developer-article</url>
+            </link>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>top careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>find a career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

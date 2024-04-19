@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>Lets Start</pattern>
+    <template>
+      Welcome! to the Computer Science department Careers!. Let's get started! Please select from the options below:
+      <button>
+        <text>Discover the top 5 careers</text>
+        <postback> top careers</postback>
+        
+      </button>
+      <button>
+        <text>Get help choosing a career</text>
+        <postback>find a career</postback>
+      </button>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>top careers</pattern>
+    <template>
+      Here are 5 exciting careers in Computer Science that you can explore with your degree:
+      <button>
+        <text>Software Developer</text>
+        <postback>software developer</postback>
+      </button>
+      <button>
+        <text>Cybersecurity Engineer</text>
+        <postback>cybersecurity engineer</postback>
+      </button>
+      <button>
+        <text>fullstack Developer</text>
+        <postback>fullstack developer</postback>
+      </button>
+      <button>
+        <text>Database Engineer</text>
+        <postback>database engineer</postback>
+      </button>
+      <button>
+        <text>Data Science</text>
+        <postback>data science</postback>
+      </button>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>find a career</pattern>
+    <template>
+      Let's help you find a career that fits for you, you will be asked a serious of questions:
+      <br/>
+      <br/>
+      Do you enjoy staticis  but find data science  challenging?
+      <button>
+        <text>Yes</text>
+        <postback>dataquestion</postback>
+      </button>
+      <button>
+        <text>No</text>
+        <postback>programming question</postback>
+      </button>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>dataquestion</pattern>
+    <template>
+      Do you have experience working with Data or scientific computing??
+      <button>
+        <text>Yes</text>
+        <postback>dataquestion 2</postback>
+      </button>
+      <button>
+        <text>No</text>
+        <postback>cybersecurity engineer question </postback>
+      </button>
+    </template>
+  </category>
+  
+  <category>
+        <pattern>programming question</pattern>
+        <template> Do you perfer to work in a development environment?
+            <button>
+                <text>yes</text>
+                <postback>programming question 2</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>database question</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>programming question 2</pattern>
+        <template> Do you enjoy engineering, designing software systems?
+            <button>
+                <text>yes</text>
+                <postback>software developer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>cybersecurity engineer question</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+    <pattern>cybersecurity engineer question</pattern>
+        <template> Do you enjoy working more with networks and security applications?
+            <button>
+                <text>yes</text>
+                <postback>cybersecurity engineer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>no suggested job</postback>
+            </button>
+        </template>
+    </category>
+
+
+    
+    
+    
+     <category>
+        <pattern>dataquestion 2</pattern>
+        <template> Do you enjoy working primairly with data applications?
+            <button>
+                <text>yes</text>
+                <postback>data science question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>fullstack developer question</postback>
+            </button>
+        </template>
+    </category>
+    
+          <category>
+        <pattern>database question</pattern>
+        <template>Do you enjoy using working with making enitity relationshp diagrams and store them in a SQL software ?
+            <button>
+                <text>yes</text>
+                <postback>database engineer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>programming question 2</postback>
+            </button>
+        </template>
+    </category>
+
+
+
+  
+  <!-- Additional categories follow the same pattern -->
+</aiml>
